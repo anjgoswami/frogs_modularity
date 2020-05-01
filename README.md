@@ -18,3 +18,5 @@ EMMLi_subsampling_for_unequal_datasets:	This R code is provided as an example of
 datasets. The larger dataset can iteratively be subsampled down to the size of the smaller dataset.
 
 Demonstrating_negligible_merging_binding:	This R code is provided as an example of how to create negligible regions, and then how to combine negligible region data with present region data.
+
+All scans are freely available on Phenome10k.org. 

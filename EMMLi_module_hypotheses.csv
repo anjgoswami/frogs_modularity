@@ -1,0 +1,996 @@
+,LM number,Bone words,Region words,Data point,By Bone 14,By Bone (joining exoccipital+prootic) 12,By Region 19,Functional regions 6,Caecilian modules (FP in Fr) 9,Caecilian modules (FP in Pa) 10,Variably vs always present,Ossification sequence rank,"Simon+Marroig 2017 Functional 1 (NA: R, FP: R)","Simon+Marroig 2017 Functional 2 (NA: R, FP: N)","Simon+Marroig 2017 Functional 3 (NA: R, FP: Su)","Simon+Marroig 2017 Functional 4 (NA: Sn, FP: R)","Simon+Marroig 2017 Functional 5 (NA: Sn, FP: N)","Simon+Marroig 2017 Functional 6 (NA: Sn, FP: Su)","Pierkarski 1 (PS_sph: M, FP: H)","Pierkarski 2 (PS_sph: M, FP: M)","Pierkarski 3 (PS_sph: M, FP: B)","Pierkarski 4 (PS_sph: H, FP: H)","Pierkarski 5 (PS_sph: H, FP: M)","Pierkarski 6 (PS_sph: H, FP: B)","Vidal-Garcia 1. Snout: tip of the snout and the olfactory area (premaxilla, maxilla, and nasal),(I included Neo and Vo in snout too) 2: rest. ","Vidal-Garica 2: 1. dorsal, 2. ventral","Vidal-Garica 3: 1. snout, 2. rest, 3. squamosal","Vidal-Garcia 4: 1. snout, 2. posterior 3. medial","Vidal-Garcia 5: 1. snout, 2. rest, 3. brain region (dorsal sphenethemoid, exoccipital, frontoparietal)"
+LM1,1,Premaxilla,Premaxilla(d),Premaxilla: medial extreme above tooth row,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+LM2,2,Premaxilla,Premaxilla(d),Premaxilla: lateral extreme above tooth row,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+LM3,3,Premaxilla,Premaxilla(d),Premaxilla: tip of alary process ('pars alaris'),1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+LM4,4,Premaxilla,Premaxilla(d),Premaxilla: posteromedial extreme at base of alary process,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+LM5,5,Premaxilla,Premaxilla(d),Premaxilla: posterolateral extreme at base of alary process,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+LM6,6,Maxilla,Maxilla(d),"Maxilla: anteroventral extreme in lateral view, dorsal to the tooth row/palatal shelf",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM7,7,Maxilla,Maxilla(d),Maxilla: posterior extreme in lateral aspect.,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM8,8,Maxilla,Maxilla(d),Maxilla: anterodorsal extreme of maxilla in lateral view. ,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM9,9,Maxilla,Maxilla(d),"Maxilla: tip of preorbital process of pars facialis, or if process absent, posterior-most suture with nasal",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM10,10,Parasphenoid,Parasphenoid,Parasphenoid: anterior tip of cultriform process,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+LM11,11,Parasphenoid,Parasphenoid,Parisphenoid: inflection point between anterior and lateral projections,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+LM12,12,Parasphenoid,Parasphenoid,Parisphenoid: anterolateral extreme of lateral projection,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+LM13,13,Parasphenoid,Parasphenoid,Parisphenoid: inflection point between lateral and posterior projections,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+LM14,14,Parasphenoid,Parasphenoid,Parasphenoid: posterior extreme along midline,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+LM15,15,Squamosal,Squamosal,Squamosal: posteromedial extreme on tip of otic (posterior) ramus,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+LM16,16,Squamosal,Squamosal,Squamosal: medial extreme on tip of ventral ramus,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+LM17,17,Squamosal,Squamosal,Squamosal: ventral extreme on tip of zygomatic (anterior) ramus,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+LM18,18,Squamosal,Squamosal,Squamosal: inflection point between zygomatic (anterior) ramus and ventral ramus,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+LM19,19,Squamosal,Squamosal,Squamosal: anterolateral tip of ventral ramus,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+LM20,20,Squamosal,Squamosal,Squamosal: inflection point between ventral ramus and otic (posterior) ramus,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+LM21,21,Pterygoid ,Pterygoid,Pterygoid: lateral extreme of tip of posterior ramus,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+LM22,22,Pterygoid ,Pterygoid,Pterygoid: inflection point between medial ramus and posterior ramus on the ventral bone surface,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+LM23,23,Pterygoid ,Pterygoid,Pterygoid: anteromedial extreme of tip of medial ramus,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+LM24,24,Pterygoid ,Pterygoid,Pterygoid: anterior extreme of base of medial ramus,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+LM25,25,Pterygoid ,Pterygoid,Pterygoid: anteromedial extreme of anterior ramus,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+LM26,26,Pterygoid ,Pterygoid,Pterygoid: anterior extreme of base of posterior ramus,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+LM27,27,Frontoparietal,Frontoparietal,Frontoparietal: anterior extreme along medial margin,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+LM28,28,Frontoparietal,Frontoparietal,Frontoparietal: anterior extreme along lateral margin,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+LM29,29,Frontoparietal,Frontoparietal,Frontoparietal: most lateral suture with 9,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+LM30,30,Frontoparietal,Frontoparietal,"Frontoparietal: posterolateral extreme, normally by the epiotic ridge",6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+LM31,31,Frontoparietal,Frontoparietal,Frontoparietal: suture with exoccipital along midline,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+LM32,32,Premaxilla,Premaxilla(v),Premaxilla: anteromedial extreme position on palatal shelf ('pars palatina') (just posterior to the pars dentigera),1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM33,33,Premaxilla,Premaxilla(v),Premaxilla: anterolateral extreme position on palatal shelf ('pars palatina') (just posterior to the pars dentigera),1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM34,34,Premaxilla,Premaxilla(v),Premaxilla: posterolateral extreme of palatal shelf ('pars palatina'),1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM35,35,Premaxilla,Premaxilla(v),"Premaxilla: tip of palatine process on palatal shelf ('pars palatina'), in ventral aspect",1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM36,36,Maxilla,Maxilla(v),Maxilla: anterior extreme of palatal shelf ('pars palatina'),2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM37,37,Maxilla,Maxilla(v),Maxilla: anteromedial extreme of palatal shelf ('pars palatina'),2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM38,38,Maxilla,Maxilla(v),Maxilla: posterolateral extreme of palatal shelf ('pars palatina'),2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+LM39,39,Nasal,Nasal,Nasal: anterior tip,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+LM40,40,Nasal,Nasal,Nasal: posterior extreme,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+LM41,41,Nasal,Nasal,Nasal: tip of maxillary process,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+LM42,42,Parasphenoid,Parasphenoid,Parasphenoid: posterolateral extreme of lateral projection,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+LM43,43,Exoccipital,Exoccipital,Exoccipital: anteromedial extreme suture with frontoparietal,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM44,44,Exoccipital,Exoccipital,Exoccipital: dorsal extreme of foramen magnum,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM45,45,Exoccipital,Occipital condyle,"Exoccipital: dorsal extreme of occipital condyle, along foramen magnum margin",8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM46,46,Exoccipital,Occipital condyle,"Exoccipital: ventral extreme of occipital condyle, along foramen magnum margin",8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM47,47,Exoccipital,Exoccipital,Exoccipital: ventral extreme of foramen magnum,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM48,48,Exoccipital,Exoccipital,"Exoccipital: in ventral aspect, posteromedial suture with parasphenoid",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM49,49,Exoccipital,Exoccipital,"Exoccipital: in ventral aspect, posterolateral extreme suture with parasphenoid",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM50,50,Exoccipital,Exoccipital,Exoccipital: ventral extreme of jugular foramen,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM51,51,Exoccipital,Exoccipital,Exoccipital: dorsal extreme of jugular foramen,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM52,52,Exoccipital,Exoccipital,Exoccipital: anterior extreme of processus mastoideus (ridge),8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM53,53,Exoccipital,Exoccipital,Exoccipital: On processus mastoideus (ridge)- lines up with ridge that gets to 65,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+LM54,54,Prootic,Otic,"Otic anteromedial extreme on the top (Anterior extreme of ridge, but only until reaches FP). Just medial to the ridge. If absent, next to LM28",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+LM55,55,Prootic,Otic,Otic dorsolateral extreme of 9 foramen (or oculomotor foramen- see Leptodactylus nesiotus diagram),9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+LM56,56,Prootic,Otic,"Otic anterolateral extreme, from dorsal view, along the ridge from LM63",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+LM57,57,Prootic,Otic,Otic posterolateral extreme,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+LM58,58,Prootic,Otic,Otic on processus mastoideus (ridge)- lines up with ridge that gets to 65,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C1,59,Premaxilla,Premaxilla(d),Pm: Directly to the base of the alary process ('pars alaris') then follow base: 3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C1,60,Premaxilla,Premaxilla(d),Pm: Directly to the base of the alary process ('pars alaris') then follow base: 3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C1,61,Premaxilla,Premaxilla(d),Pm: Directly to the base of the alary process ('pars alaris') then follow base: 3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C2,62,Premaxilla,Premaxilla(d),Pm: Following posterior edge of alary process ('pars alaris'): 3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C2,63,Premaxilla,Premaxilla(d),Pm: Following posterior edge of alary process ('pars alaris'): 3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C2,64,Premaxilla,Premaxilla(d),Pm: Following posterior edge of alary process ('pars alaris'): 3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C3,65,Premaxilla,Premaxilla(d),Pm: Following posterior edge of alary process ('pars alaris'): 3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C3,66,Premaxilla,Premaxilla(d),Pm: Following posterior edge of alary process ('pars alaris'): 3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C3,67,Premaxilla,Premaxilla(d),Pm: Following posterior edge of alary process ('pars alaris'): 3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C4,68,Premaxilla,Premaxilla(d),"Pm: Following base of alary process ('pars alaris'), then directly to landmark: 3",1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C4,69,Premaxilla,Premaxilla(d),"Pm: Following base of alary process ('pars alaris'), then directly to landmark: 3",1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C4,70,Premaxilla,Premaxilla(d),"Pm: Following base of alary process ('pars alaris'), then directly to landmark: 3",1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C5,71,Premaxilla,Premaxilla(d),"Pm: Medially, dorsal to tooth row: 4",1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C5,72,Premaxilla,Premaxilla(d),"Pm: Medially, dorsal to tooth row: 4",1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C5,73,Premaxilla,Premaxilla(d),"Pm: Medially, dorsal to tooth row: 4",1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C5,74,Premaxilla,Premaxilla(d),"Pm: Medially, dorsal to tooth row: 4",1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C6,75,Premaxilla,Premaxilla(v),"Pm (V): Laterally, posterior to tooth shelf ('pars dentigera'): 3",1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C6,76,Premaxilla,Premaxilla(v),"Pm (V): Laterally, posterior to tooth shelf ('pars dentigera'): 3",1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C6,77,Premaxilla,Premaxilla(v),"Pm (V): Laterally, posterior to tooth shelf ('pars dentigera'): 3",1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C7,78,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 3,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C7,79,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 3,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C7,80,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 3,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C8,81,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 6,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C8,82,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 6,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C8,83,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 6,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C8,84,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 6,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C8,85,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 6,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C8,86,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 6,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C9,87,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 3,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C9,88,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 3,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C9,89,Premaxilla,Premaxilla(v),Pm (V): Following edge of palatal shelf of premaxilla: 3,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C10,90,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C10,91,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C10,92,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C10,93,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C10,94,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C10,95,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C10,96,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C10,97,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C10,98,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C10,99,Parasphenoid,Parasphenoid,PS: Following bone margin: 10,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C11,100,Parasphenoid,Parasphenoid,PS: Following bone margin: 6,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C11,101,Parasphenoid,Parasphenoid,PS: Following bone margin: 6,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C11,102,Parasphenoid,Parasphenoid,PS: Following bone margin: 6,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C11,103,Parasphenoid,Parasphenoid,PS: Following bone margin: 6,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C11,104,Parasphenoid,Parasphenoid,PS: Following bone margin: 6,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C11,105,Parasphenoid,Parasphenoid,PS: Following bone margin: 6,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C12,106,Parasphenoid,Parasphenoid,PS: Following bone margin: 4,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C12,107,Parasphenoid,Parasphenoid,PS: Following bone margin: 4,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C12,108,Parasphenoid,Parasphenoid,PS: Following bone margin: 4,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C12,109,Parasphenoid,Parasphenoid,PS: Following bone margin: 4,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C13,110,Parasphenoid,Parasphenoid,PS: Following bone margin: 5,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C13,111,Parasphenoid,Parasphenoid,PS: Following bone margin: 5,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C13,112,Parasphenoid,Parasphenoid,PS: Following bone margin: 5,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C13,113,Parasphenoid,Parasphenoid,PS: Following bone margin: 5,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C13,114,Parasphenoid,Parasphenoid,PS: Following bone margin: 5,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C14,115,Parasphenoid,Parasphenoid,PS: Following bone margin: 4,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C14,116,Parasphenoid,Parasphenoid,PS: Following bone margin: 4,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C14,117,Parasphenoid,Parasphenoid,PS: Following bone margin: 4,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C14,118,Parasphenoid,Parasphenoid,PS: Following bone margin: 4,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,119,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,120,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,121,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,122,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,123,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,124,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,125,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,126,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,127,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,128,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,129,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C15,130,Parasphenoid,Parasphenoid,PS: Anteriorly along midline: 12,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+C16,131,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C16,132,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C16,133,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C16,134,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C16,135,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C17,136,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C17,137,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C17,138,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C17,139,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C17,140,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C18,141,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C18,142,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C18,143,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C18,144,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C18,145,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C19,146,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 8,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C19,147,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 8,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C19,148,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 8,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C19,149,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 8,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C19,150,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 8,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C19,151,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 8,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C19,152,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 8,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C19,153,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 8,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,154,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,155,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,156,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,157,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,158,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,159,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,160,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,161,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,162,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C20,163,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 10,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C21,164,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C21,165,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C21,166,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C21,167,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C21,168,Pterygoid,Pterygoid,Pt: Following margin of ventral bone surface: 5,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+C22,169,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,170,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,171,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,172,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,173,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,174,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,175,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,176,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,177,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,178,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,179,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,180,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,181,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,182,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C22,183,Maxilla,Maxilla(v),"Max (V): Posteriorly along margin of palatal shelf, excluding tooth shelf: 15",2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,184,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,185,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,186,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,187,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,188,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,189,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,190,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,191,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,192,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,193,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,194,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,195,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,196,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,197,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C23,198,Maxilla,Maxilla(v),Max (V): Anteriorly along margin of palatal shelf: 15,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C24,199,Maxilla,Maxilla(v),Max (V): Laterally along margin: 5,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C24,200,Maxilla,Maxilla(v),Max (V): Laterally along margin: 5,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C24,201,Maxilla,Maxilla(v),Max (V): Laterally along margin: 5,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C24,202,Maxilla,Maxilla(v),Max (V): Laterally along margin: 5,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C24,203,Maxilla,Maxilla(v),Max (V): Laterally along margin: 5,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C25,204,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C25,205,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C25,206,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C25,207,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C25,208,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C25,209,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C25,210,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C25,211,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C25,212,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C25,213,Squamosal,Squamosal,Sq: Tracing medial margin of dorsal surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,214,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,215,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,216,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,217,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,218,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,219,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,220,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,221,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,222,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C26,223,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,224,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,225,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,226,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,227,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,228,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,229,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,230,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,231,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,232,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C27,233,Squamosal,Squamosal,Sq: Following margin of lateral bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C28,234,Squamosal,Squamosal,Sq: Following bone margin: 5,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C28,235,Squamosal,Squamosal,Sq: Following bone margin: 5,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C28,236,Squamosal,Squamosal,Sq: Following bone margin: 5,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C28,237,Squamosal,Squamosal,Sq: Following bone margin: 5,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C28,238,Squamosal,Squamosal,Sq: Following bone margin: 5,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C29,239,Squamosal,Squamosal,Sq: Following medial extreme of the lateral bone surface in posterior view: 8,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C29,240,Squamosal,Squamosal,Sq: Following medial extreme of the lateral bone surface in posterior view: 8,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C29,241,Squamosal,Squamosal,Sq: Following medial extreme of the lateral bone surface in posterior view: 8,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C29,242,Squamosal,Squamosal,Sq: Following medial extreme of the lateral bone surface in posterior view: 8,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C29,243,Squamosal,Squamosal,Sq: Following medial extreme of the lateral bone surface in posterior view: 8,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C29,244,Squamosal,Squamosal,Sq: Following medial extreme of the lateral bone surface in posterior view: 8,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C29,245,Squamosal,Squamosal,Sq: Following medial extreme of the lateral bone surface in posterior view: 8,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C29,246,Squamosal,Squamosal,Sq: Following medial extreme of the lateral bone surface in posterior view: 8,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,247,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,248,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,249,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,250,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,251,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,252,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,253,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,254,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,255,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C30,256,Squamosal,Squamosal,Sq: Tracing bone margin to capture dorsal bone surface: 10,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+C31,257,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C31,258,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C31,259,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C31,260,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C31,261,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,262,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,263,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,264,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,265,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,266,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,267,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,268,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,269,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,270,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,271,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,272,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,273,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,274,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,275,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C32,276,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 15,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C33,277,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C33,278,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C33,279,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C33,280,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C33,281,Frontoparietal,Frontoparietal,FP: Posteriorly along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C34,282,Frontoparietal,Frontoparietal,FP: Medially along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C34,283,Frontoparietal,Frontoparietal,FP: Medially along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C34,284,Frontoparietal,Frontoparietal,FP: Medially along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C34,285,Frontoparietal,Frontoparietal,FP: Medially along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C34,286,Frontoparietal,Frontoparietal,FP: Medially along margin: 5,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,287,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,288,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,289,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,290,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,291,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,292,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,293,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,294,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,295,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C35,296,Frontoparietal,Frontoparietal,FP: Anteriorly along margin: 10,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+C43,297,Exoccipital,Exoccipital,Exocc: Following midline to foramen magnum: 3,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C43,298,Exoccipital,Exoccipital,Exocc: Following midline to foramen magnum: 3,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C43,299,Exoccipital,Exoccipital,Exocc: Following midline to foramen magnum: 3,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C44,300,Exoccipital,Exoccipital,Exocc: Tracing foramen magnum: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C44,301,Exoccipital,Exoccipital,Exocc: Tracing foramen magnum: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C44,302,Exoccipital,Exoccipital,Exocc: Tracing foramen magnum: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C44,303,Exoccipital,Exoccipital,Exocc: Tracing foramen magnum: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C44,304,Exoccipital,Exoccipital,Exocc: Tracing foramen magnum: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C45,305,Exoccipital,Occipital condyle,Exocc: Tracing lateral margin of occipital condyle: 5,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C45,306,Exoccipital,Occipital condyle,Exocc: Tracing lateral margin of occipital condyle: 5,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C45,307,Exoccipital,Occipital condyle,Exocc: Tracing lateral margin of occipital condyle: 5,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C45,308,Exoccipital,Occipital condyle,Exocc: Tracing lateral margin of occipital condyle: 5,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C45,309,Exoccipital,Occipital condyle,Exocc: Tracing lateral margin of occipital condyle: 5,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C46,310,Exoccipital,Occipital condyle,Exocc: Tracing medial margin of occipital condyle: 4,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C46,311,Exoccipital,Occipital condyle,Exocc: Tracing medial margin of occipital condyle: 4,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C46,312,Exoccipital,Occipital condyle,Exocc: Tracing medial margin of occipital condyle: 4,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C46,313,Exoccipital,Occipital condyle,Exocc: Tracing medial margin of occipital condyle: 4,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C47,314,Exoccipital,Exoccipital,Exocc: Tracing foramen magnum: 3,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C47,315,Exoccipital,Exoccipital,Exocc: Tracing foramen magnum: 3,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C47,316,Exoccipital,Exoccipital,Exocc: Tracing foramen magnum: 3,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C48,317,Exoccipital,Exoccipital,"Exocc: Anteriorly along bone margin, or along midline if fused medially: 3",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C48,318,Exoccipital,Exoccipital,"Exocc: Anteriorly along bone margin, or along midline if fused medially: 3",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C48,319,Exoccipital,Exoccipital,"Exocc: Anteriorly along bone margin, or along midline if fused medially: 3",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C49,320,Exoccipital,Exoccipital,"Exocc: Laterally, tracing bine margin: 5",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C49,321,Exoccipital,Exoccipital,"Exocc: Laterally, tracing bine margin: 5",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C49,322,Exoccipital,Exoccipital,"Exocc: Laterally, tracing bine margin: 5",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C49,323,Exoccipital,Exoccipital,"Exocc: Laterally, tracing bine margin: 5",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C49,324,Exoccipital,Exoccipital,"Exocc: Laterally, tracing bine margin: 5",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,325,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,326,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,327,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,328,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,329,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,330,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,331,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,332,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,333,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C50,334,Exoccipital,Exoccipital,"Exocc: Trace around posterior margin of fenestra ovalis, to the ventral exteme of the ridge, and finally dorsally along ridge. : 10",8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C51,335,Exoccipital,Exoccipital,Exocc: Tracing along ridge dorsally: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C51,336,Exoccipital,Exoccipital,Exocc: Tracing along ridge dorsally: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C51,337,Exoccipital,Exoccipital,Exocc: Tracing along ridge dorsally: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C51,338,Exoccipital,Exoccipital,Exocc: Tracing along ridge dorsally: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C51,339,Exoccipital,Exoccipital,Exocc: Tracing along ridge dorsally: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C52,340,Exoccipital,Exoccipital,Exocc: Medially tracing along bone margin: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C52,341,Exoccipital,Exoccipital,Exocc: Medially tracing along bone margin: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C52,342,Exoccipital,Exoccipital,Exocc: Medially tracing along bone margin: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C52,343,Exoccipital,Exoccipital,Exocc: Medially tracing along bone margin: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C52,344,Exoccipital,Exoccipital,Exocc: Medially tracing along bone margin: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C53,345,Exoccipital,Exoccipital,Exocc: Laterally around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C53,346,Exoccipital,Exoccipital,Exocc: Laterally around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C53,347,Exoccipital,Exoccipital,Exocc: Laterally around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C53,348,Exoccipital,Exoccipital,Exocc: Laterally around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C53,349,Exoccipital,Exoccipital,Exocc: Laterally around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C54,350,Exoccipital,Exoccipital,Exocc: Medially around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C54,351,Exoccipital,Exoccipital,Exocc: Medially around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C54,352,Exoccipital,Exoccipital,Exocc: Medially around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C54,353,Exoccipital,Exoccipital,Exocc: Medially around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C54,354,Exoccipital,Exoccipital,Exocc: Medially around jugular foramen: 5,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+C55,355,Prootic,Otic,"Otic: Anterially, tracing medial side of ridge: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C55,356,Prootic,Otic,"Otic: Anterially, tracing medial side of ridge: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C55,357,Prootic,Otic,"Otic: Anterially, tracing medial side of ridge: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C55,358,Prootic,Otic,"Otic: Anterially, tracing medial side of ridge: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C55,359,Prootic,Otic,"Otic: Anterially, tracing medial side of ridge: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C55,360,Prootic,Otic,"Otic: Anterially, tracing medial side of ridge: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C55,361,Prootic,Otic,"Otic: Anterially, tracing medial side of ridge: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C55,362,Prootic,Otic,"Otic: Anterially, tracing medial side of ridge: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C56,363,Prootic,Otic,"Otic: Laterally, following contour: 5",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C56,364,Prootic,Otic,"Otic: Laterally, following contour: 5",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C56,365,Prootic,Otic,"Otic: Laterally, following contour: 5",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C56,366,Prootic,Otic,"Otic: Laterally, following contour: 5",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C56,367,Prootic,Otic,"Otic: Laterally, following contour: 5",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,368,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,369,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,370,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,371,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,372,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,373,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,374,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,375,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,376,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,377,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,378,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,379,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,380,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,381,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C57,382,Prootic,Otic,"Otic: Posteriorly, tracing lateral margin of dorsal bone surface: 15",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C58,383,Prootic,Otic,"Otic: Medially, following contour: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C58,384,Prootic,Otic,"Otic: Medially, following contour: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C58,385,Prootic,Otic,"Otic: Medially, following contour: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C58,386,Prootic,Otic,"Otic: Medially, following contour: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C58,387,Prootic,Otic,"Otic: Medially, following contour: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C58,388,Prootic,Otic,"Otic: Medially, following contour: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C58,389,Prootic,Otic,"Otic: Medially, following contour: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C58,390,Prootic,Otic,"Otic: Medially, following contour: 8",9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C59,391,Prootic,Otic,Otic: Tracing along ridge: 5,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C59,392,Prootic,Otic,Otic: Tracing along ridge: 5,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C59,393,Prootic,Otic,Otic: Tracing along ridge: 5,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C59,394,Prootic,Otic,Otic: Tracing along ridge: 5,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C59,395,Prootic,Otic,Otic: Tracing along ridge: 5,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+C60,396,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C60,397,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C60,398,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C60,399,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C60,400,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C60,401,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C60,402,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C60,403,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C60,404,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C60,405,Nasal,Nasal,Nasal: Posteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+C61,406,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C61,407,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C61,408,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C61,409,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C61,410,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C61,411,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C61,412,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C61,413,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C61,414,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C61,415,Nasal,Nasal,"Nasal: Laterally tracing bone margin, capturing bone depth: 10",7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,416,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,417,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,418,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,419,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,420,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,421,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,422,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,423,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,424,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C62,425,Nasal,Nasal,Nasal: Anteriorly tracing bone margin: 10,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+C73,426,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,427,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,428,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,429,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,430,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,431,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,432,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,433,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,434,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,435,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,436,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,437,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,438,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,439,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C73,440,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,441,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,442,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,443,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,444,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,445,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,446,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,447,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,448,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,449,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,450,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,451,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,452,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,453,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,454,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C74,455,Maxilla,Maxilla(d),"Max (lat): Anteriorly, tracing bone margin dorsal to tooth row: 15",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C75,456,Maxilla,Maxilla(d),"Max (lat): Dorsally, tracing bone margin: 5",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C75,457,Maxilla,Maxilla(d),"Max (lat): Dorsally, tracing bone margin: 5",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C75,458,Maxilla,Maxilla(d),"Max (lat): Dorsally, tracing bone margin: 5",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C75,459,Maxilla,Maxilla(d),"Max (lat): Dorsally, tracing bone margin: 5",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C75,460,Maxilla,Maxilla(d),"Max (lat): Dorsally, tracing bone margin: 5",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C76,461,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 8",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C76,462,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 8",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C76,463,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 8",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C76,464,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 8",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C76,465,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 8",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C76,466,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 8",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C76,467,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 8",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+C76,468,Maxilla,Maxilla(d),"Max (lat): Posteriorly, tracing bone margin: 8",2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P1,469,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,470,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,471,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,472,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,473,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,474,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,475,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,476,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,477,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,478,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,479,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P1,480,Premaxilla,Premaxilla(d),PmD patch 12,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P2,481,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,482,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,483,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,484,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,485,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,486,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,487,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,488,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,489,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,490,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,491,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P2,492,Premaxilla,Premaxilla(v),PmV patch 12,1,1,7,5,7,7,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P3,493,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,494,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,495,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,496,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,497,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,498,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,499,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,500,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,501,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,502,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,503,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,504,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,505,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,506,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,507,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,508,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,509,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,510,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,511,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,512,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,513,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,514,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,515,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,516,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,517,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,518,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,519,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,520,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,521,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,522,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,523,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,524,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,525,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,526,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,527,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,528,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,529,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,530,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,531,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P3,532,Parasphenoid,Parasphenoid,PS patch 40,3,3,3,2,3,3,1,1,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,2,2
+P4,533,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,534,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,535,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,536,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,537,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,538,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,539,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,540,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,541,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,542,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,543,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,544,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,545,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,546,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,547,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,548,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,549,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,550,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,551,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,552,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,553,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,554,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,555,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,556,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,557,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P4,558,Pterygoid,Pterygoid,Pt patch 26,5,5,5,3,5,5,1,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P5,559,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,560,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,561,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,562,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,563,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,564,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,565,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,566,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,567,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,568,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,569,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,570,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,571,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,572,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,573,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,574,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,575,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,576,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,577,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P5,578,Maxilla,Maxilla(v),MaxV patch 20,2,2,8,5,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P6,579,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,580,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,581,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,582,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,583,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,584,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,585,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,586,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,587,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,588,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,589,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,590,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,591,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,592,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,593,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,594,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,595,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,596,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,597,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P6,598,Nasal,Nasal,Na patch 20,7,7,9,1,1,1,1,2,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,2,1
+P7,599,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,600,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,601,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,602,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,603,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,604,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,605,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,606,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,607,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,608,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,609,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,610,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,611,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,612,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,613,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,614,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,615,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,616,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,617,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,618,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,619,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,620,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,621,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,622,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,623,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,624,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,625,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,626,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,627,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,628,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,629,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,630,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,631,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,632,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,633,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,634,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,635,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,636,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,637,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,638,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,639,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,640,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,641,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,642,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,643,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,644,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,645,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P7,646,Maxilla,Maxilla(d),MaxD patch 48,2,2,2,1,2,2,1,2,1,1,1,1,1,1,2,2,2,2,2,2,1,2,1,1,1
+P8,647,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,648,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,649,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,650,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,651,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,652,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,653,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,654,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,655,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,656,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,657,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P8,658,Exoccipital,Occipital condyle,Cond patch 12,8,8,11,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,659,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,660,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,661,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,662,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,663,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,664,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,665,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,666,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,667,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,668,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,669,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,670,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,671,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,672,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,673,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,674,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,675,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,676,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,677,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,678,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,679,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,680,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,681,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,682,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,683,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,684,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,685,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,686,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,687,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,688,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,689,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,690,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,691,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,692,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,693,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,694,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,695,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,696,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,697,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,698,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,699,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,700,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,701,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,702,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,703,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,704,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,705,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,706,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,707,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,708,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,709,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,710,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,711,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,712,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,713,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,714,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,715,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P9,716,Exoccipital,Exoccipital,Occ patch 58,8,8,10,6,8,8,1,1,4,4,4,4,4,4,3,3,3,3,3,3,2,1,2,2,3
+P10,717,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,718,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,719,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,720,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,721,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,722,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,723,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,724,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,725,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,726,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,727,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,728,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,729,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,730,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,731,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,732,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,733,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,734,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,735,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,736,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,737,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,738,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,739,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,740,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,741,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,742,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,743,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,744,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,745,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,746,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,747,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,748,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,749,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,750,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,751,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P10,752,Prootic,Otic,Otic patch 36,9,8,12,6,8,8,1,1,2,2,2,2,2,2,3,3,3,3,3,3,2,1,2,2,2
+P11,753,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,754,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,755,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,756,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,757,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,758,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,759,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,760,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,761,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,762,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,763,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,764,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,765,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,766,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,767,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,768,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,769,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,770,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,771,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,772,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,773,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,774,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,775,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,776,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,777,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,778,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,779,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,780,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,781,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,782,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,783,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,784,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,785,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,786,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,787,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,788,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,789,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,790,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,791,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,792,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,793,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,794,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,795,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,796,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,797,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,798,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,799,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,800,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,801,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,802,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,803,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,804,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,805,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,806,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,807,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,808,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,809,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,810,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,811,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,812,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,813,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,814,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,815,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P11,816,Frontoparietal,Frontoparietal,FP patch 64,6,6,6,4,6,6,1,1,4,2,3,4,2,3,1,2,3,1,2,3,2,1,2,3,3
+P12,817,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,818,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,819,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,820,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,821,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,822,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,823,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,824,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,825,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,826,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,827,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,828,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,829,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,830,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,831,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,832,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,833,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,834,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,835,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,836,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,837,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,838,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,839,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,840,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,841,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P12,842,Squamosal,Squamosal,Sq patch 26,4,4,4,3,4,4,1,2,3,3,3,3,3,3,2,2,2,2,2,2,2,2,3,2,2
+P13,843,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,844,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,845,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,846,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,847,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,848,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,849,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,850,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,851,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,852,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,853,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,854,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,855,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,856,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,857,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P13,858,Neopalatine,Neopalatine,Neo patch 16,10,9,13,5,2,2,2,3,1,1,1,1,1,1,NA,NA,NA,NA,NA,NA,1,1,1,1,1
+P14,859,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,860,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,861,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,862,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,863,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,864,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,865,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,866,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,867,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,868,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,869,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,870,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,871,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,872,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,873,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P14,874,Stapes,Stapes,Stapes patch 16,11,10,14,3,9,9,2,NA,2,2,2,2,2,2,NA,NA,NA,NA,NA,NA,2,2,2,2,2
+P15,875,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,876,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,877,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,878,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,879,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,880,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,881,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,882,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,883,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,884,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,885,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,886,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,887,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,888,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P15,889,Quadratojugal,Quadratojugal(l),Qu patch 15,12,11,15,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,890,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,891,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,892,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,893,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,894,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,895,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,896,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,897,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,898,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,899,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,900,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,901,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,902,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,903,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,904,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P16,905,Quadratojugal,Quadratojugal(JJ),JJ patch 16,12,11,16,3,4,4,2,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2
+P17,906,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,907,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,908,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,909,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,910,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,911,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,912,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,913,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,914,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,915,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,916,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,917,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,918,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,919,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,920,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,921,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,922,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,923,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,924,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,925,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,926,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,927,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,928,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,929,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,930,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,931,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,932,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,933,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P17,934,Sphenethmoid,Sphenethmoid(d),SphD patch 29,13,12,17,4,6,10,2,3,4,4,4,4,4,4,NA,NA,NA,NA,NA,NA,2,1,2,3,3
+P18,935,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,936,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,937,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,938,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,939,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,940,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,941,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,942,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,943,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,944,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,945,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,946,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,947,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,948,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,949,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,950,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,951,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,952,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,953,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P18,954,Vomer,Vomer,Vo patch 20,14,13,18,5,3,3,2,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+P19,955,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,956,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,957,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,958,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,959,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,960,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,961,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,962,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,963,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,964,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,965,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,966,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,967,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,968,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,969,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,970,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,971,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,972,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,973,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,974,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,975,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,976,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,977,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,978,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,979,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,980,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,981,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,982,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,983,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,984,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,985,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,986,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,987,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,988,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,989,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,990,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,991,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,992,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,993,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,994,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
+P19,995,Sphenethmoid,Sphenethmoid(v),SphV patch 41,13,12,19,2,3,3,2,3,2,2,2,2,2,2,2,2,2,1,1,1,2,1,2,3,2
